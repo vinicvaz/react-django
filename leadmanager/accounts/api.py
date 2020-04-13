@@ -5,7 +5,6 @@ from .serializers import UserSerializer, RegisterSerializer, LoginSerializer
 
 
 # Register API
-
 class RegisterAPI(generics.GenericAPIView):
     serializer_class = RegisterSerializer
 
